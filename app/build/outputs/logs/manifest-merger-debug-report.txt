@@ -1,0 +1,115 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml:2:1-31:12
+	package
+		ADDED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml:8:22-77
+application
+ADDED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml:10:5-29:19
+MERGED from [pub.devrel:easypermissions:0.4.3] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\pub.devrel\easypermissions\0.4.3\AndroidManifest.xml:11:5-17:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml:14:9-41
+	android:supportsRtl
+		ADDED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml:15:9-35
+	android:allowBackup
+		ADDED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml:13:9-43
+	android:theme
+		ADDED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml:16:9-40
+	android:name
+		ADDED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml:11:9-28
+activity#com.silang.superfileview.MainActivity
+ADDED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml:17:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml:21:27-74
+activity#com.silang.superfileview.FileDisplayActivity
+ADDED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml:26:9-28:16
+	android:name
+		ADDED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml:27:13-48
+uses-sdk
+INJECTED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:recyclerview-v7:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\AndroidManifest.xml:20:5-43
+MERGED from [pub.devrel:easypermissions:0.4.3] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\pub.devrel\easypermissions\0.4.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\superFileView\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:recyclerview-v7:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:recyclerview-v7:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:recyclerview-v7:25.3.1] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\AndroidManifest.xml:23:9-47
+activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
+ADDED from [pub.devrel:easypermissions:0.4.3] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\pub.devrel\easypermissions\0.4.3\AndroidManifest.xml:12:9-16:66
+	android:label
+		ADDED from [pub.devrel:easypermissions:0.4.3] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\pub.devrel\easypermissions\0.4.3\AndroidManifest.xml:15:13-29
+	android:exported
+		ADDED from [pub.devrel:easypermissions:0.4.3] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\pub.devrel\easypermissions\0.4.3\AndroidManifest.xml:14:13-37
+	android:theme
+		ADDED from [pub.devrel:easypermissions:0.4.3] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\pub.devrel\easypermissions\0.4.3\AndroidManifest.xml:16:13-63
+	android:name
+		ADDED from [pub.devrel:easypermissions:0.4.3] E:\AndroidStudioProjects\superFileView\app\build\intermediates\exploded-aar\pub.devrel\easypermissions\0.4.3\AndroidManifest.xml:13:13-86
