@@ -16,6 +16,7 @@
 网友反映有些手机加载不了文件，会出现以下画面：
 
 ![文件预览失败.png](http://upload-images.jianshu.io/upload_images/4447058-2268af81ee6d4dee.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 经过排查发现原因如下：
 
 ![错误原因.png](http://upload-images.jianshu.io/upload_images/4447058-75bc9558f63f5a5d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
