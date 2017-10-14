@@ -2,9 +2,11 @@ package com.silang.superfileview;
 
 import android.content.Context;
 import android.content.Intent;
+import android.os.Binder;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.annotation.Nullable;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 
@@ -28,6 +30,8 @@ public class FileDisplayActivity extends AppCompatActivity {
     String filePath;
 
 
+
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,16 +51,21 @@ public class FileDisplayActivity extends AppCompatActivity {
 
         Intent intent = this.getIntent();
         String path = (String) intent.getSerializableExtra("path");
+
         if (!TextUtils.isEmpty(path)) {
             TLog.d(TAG, "文件path:" + path);
             setFilePath(path);
         }
         mSuperFileView.show();
+
     }
 
 
     private void getFilePathAndShowFile(SuperFileView2 mSuperFileView2) {
+
+
         if (getFilePath().contains("http")) {//网络地址要先下载
+
             downLoadFromNet(getFilePath(),mSuperFileView2);
 
         } else {
@@ -104,6 +113,8 @@ public class FileDisplayActivity extends AppCompatActivity {
             }
         }
 
+
+
         LoadFileModel.loadPdfFile(url, new Callback<ResponseBody>() {
             @Override
             public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
@@ -123,6 +134,8 @@ public class FileDisplayActivity extends AppCompatActivity {
                         file1.mkdirs();
                         TLog.d(TAG, "创建缓存目录： " + file1.toString());
                     }
+
+
                     //fileN : /storage/emulated/0/pdf/kauibao20170821040512.pdf
                     File fileN = getCacheFile(url);//new File(getCacheDir(url), getFileName(url))
 
@@ -190,7 +203,7 @@ public class FileDisplayActivity extends AppCompatActivity {
      * @return
      */
     private File getCacheFile(String url) {
-        File cacheFile = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + "/10086/"
+        File cacheFile = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + "/007/"
                 + getFileName(url));
         TLog.d(TAG, "缓存文件 = " + cacheFile.toString());
         return cacheFile;

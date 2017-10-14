@@ -54,10 +54,25 @@ public class SuperFileView2 extends FrameLayout implements TbsReaderView.ReaderC
     public void displayFile(File mFile) {
 
         if (mFile != null && !TextUtils.isEmpty(mFile.toString())) {
+            //增加下面一句解决没有TbsReaderTemp文件夹存在导致加载文件失败
+            String bsReaderTemp = "/storage/emulated/0/TbsReaderTemp";
+            File bsReaderTempFile =new File(bsReaderTemp);
+
+            if (!bsReaderTempFile.exists()) {
+                TLog.d("准备创建/storage/emulated/0/TbsReaderTemp！！");
+                boolean mkdir = bsReaderTempFile.mkdir();
+                if(!mkdir){
+                    TLog.e("创建/storage/emulated/0/TbsReaderTemp失败！！！！！");
+                }
+            }
+
             //加载文件
             Bundle localBundle = new Bundle();
+            TLog.d(mFile.toString());
             localBundle.putString("filePath", mFile.toString());
+
             localBundle.putString("tempPath", Environment.getExternalStorageDirectory() + "/" + "TbsReaderTemp");
+
             if (this.mTbsReaderView == null)
                 this.mTbsReaderView = getTbsReaderView(context);
             boolean bool = this.mTbsReaderView.preOpen(getFileType(mFile.toString()), false);

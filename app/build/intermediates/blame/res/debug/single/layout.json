@@ -20,12 +20,12 @@
         "source": "E:\\AndroidStudioProjects\\superFileView\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "E:\\AndroidStudioProjects\\superFileView\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
-        "source": "E:\\AndroidStudioProjects\\superFileView\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\notification_action_tombstone.xml"
-    },
-    {
         "merged": "E:\\AndroidStudioProjects\\superFileView\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "E:\\AndroidStudioProjects\\superFileView\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\superFileView\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "E:\\AndroidStudioProjects\\superFileView\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout\\notification_action_tombstone.xml"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\superFileView\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
