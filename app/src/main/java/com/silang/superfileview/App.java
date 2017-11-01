@@ -6,6 +6,7 @@ package com.silang.superfileview;
 
 import android.app.Application;
 import android.os.Build;
+import com.tencent.smtt.sdk.QbSdk;
 
 /**
  * Created by ljh
@@ -17,7 +18,8 @@ public class App extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-
+        //增加这句话
+        QbSdk.initX5Environment(this,null);
         ExceptionHandler.getInstance().initConfig(this);
     }
 
