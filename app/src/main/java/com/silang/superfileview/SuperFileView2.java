@@ -55,7 +55,7 @@ public class SuperFileView2 extends FrameLayout implements TbsReaderView.ReaderC
 
         if (mFile != null && !TextUtils.isEmpty(mFile.toString())) {
             //增加下面一句解决没有TbsReaderTemp文件夹存在导致加载文件失败
-            String bsReaderTemp = "/storage/emulated/0/TbsReaderTemp";
+            String bsReaderTemp = Environment.getExternalStorageDirectory() + "/" + "TbsReaderTemp";
             File bsReaderTempFile =new File(bsReaderTemp);
 
             if (!bsReaderTempFile.exists()) {
@@ -71,7 +71,7 @@ public class SuperFileView2 extends FrameLayout implements TbsReaderView.ReaderC
             TLog.d(mFile.toString());
             localBundle.putString("filePath", mFile.toString());
 
-            localBundle.putString("tempPath", Environment.getExternalStorageDirectory() + "/" + "TbsReaderTemp");
+            localBundle.putString("tempPath", bsReaderTemp);
 
             if (this.mTbsReaderView == null)
                 this.mTbsReaderView = getTbsReaderView(context);
