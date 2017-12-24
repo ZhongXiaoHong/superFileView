@@ -16,6 +16,7 @@
 
 ## 常见问题
 - no suport by
+
 出现这个错误提示的原因，首先可能是手机上没有Tbs内核，如果有tbs内核，则可能是内核正在初始化安装，还处于冷启动阶段，这个时候内核还不能使用，打开文件会出现这个错误，可以使用可以按如下方式确定内核是否成功加载并且可用：
 方法1：
 ```
@@ -76,10 +77,13 @@ QbSdk.preInit(this, new QbSdk.PreInitCallback() {
   QbSdk.setDownloadWithoutWifi(true);
   实际上上面的方法2在下载
 
+
 - 插件加载失败
+
 首次打开相关文件的时候需要下载相关文件的插件，因此需要保持网络可用状态，否则下载插件失败会出现这个错误。
 
 - NoSuchMethodException: onCallBackAction 
+
 这个错误我也是懵逼，不管成功打开与否，都会有这玩意，所以暂时先忽略。
 
 
