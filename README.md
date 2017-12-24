@@ -73,9 +73,9 @@ QbSdk.preInit(this, new QbSdk.PreInitCallback() {
             TbsDownloader.startDownload(this);
         }
 ```
-方法、方法2 主要的区别在于方法1更加“自动”，内部会自动判断需不需要下载内核，因此在使用方法1来初始化的话，需要注意一下,此时tbs内核在非Wifi状态下是默认不会下载的，你可以通过以下方法来改变这个设置：
+方法1、方法2 主要的区别在于方法1更加“自动”，内部会自动判断需不需要下载内核，因此在使用方法1来初始化的话，需要注意一下,此时tbs内核在非Wifi状态下是默认不会下载的，你可以通过以下方法来改变这个设置：
   QbSdk.setDownloadWithoutWifi(true);
-  实际上上面的方法2在下载
+  
 
 
 - 插件加载失败
